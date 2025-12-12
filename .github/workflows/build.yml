@@ -59,3 +59,9 @@ jobs:
         with:
           name: firmware
           path: SHIELD_NAME_right_BOARD_NAME.uf2
+
+include:
+  - board: seeeduino_xiao_ble         # MCU の board
+    shield: pinkeybd_left       # 左側の ZMK shield
+  - board: seeeduino_xiao_ble
+    shield: pinkeybd_right      # 右側の ZMK shield
