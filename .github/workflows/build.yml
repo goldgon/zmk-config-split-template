@@ -65,3 +65,4 @@ include:
     shield: pinkeybd_left       # 左側の ZMK shield
   - board: seeeduino_xiao_ble
     shield: pinkeybd_right      # 右側の ZMK shield
+
